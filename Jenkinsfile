@@ -10,7 +10,7 @@ pipeline {
     }
     tools {
         maven 'apache-maven-latest'
-        jdk 'adoptopenjdk-hotspot-jdk8-latest'
+        jdk 'adoptopenjdk-hotspot-jdk16-latest'
     }
 	stages {
 		stage('Build') {

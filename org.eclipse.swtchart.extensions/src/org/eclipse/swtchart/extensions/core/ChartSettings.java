@@ -712,7 +712,6 @@ public class ChartSettings implements IChartSettings {
 	@Override
 	protected void finalize() throws Throwable {
 
-		super.finalize();
 		if(!defaultFont.isDisposed()) {
 			defaultFont.dispose();
 		}

@@ -28,19 +28,6 @@
 						</goals>
 					</execution>
 				</executions>
-
-				<configuration>
-					<excludes>
-						<!-- provide plug-ins not containing any source code -->
-						<plugin id="org.apache.batik.svggen" />
-						<plugin id="org.apache.batik.ext.awt" />
-						<plugin id="org.apache.batik.dom" />
-						<plugin id="org.apache.batik.util" />
-						<plugin id="org.apache.batik.constants" />
-						<plugin id="org.apache.batik.css" />
-						<plugin id="org.apache.batik.i18n" />
-					</excludes>
-				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>

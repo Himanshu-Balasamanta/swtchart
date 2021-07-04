@@ -511,7 +511,7 @@ public class ExtendedLegendUI extends Composite {
 		tableViewer.get().setInput(seriesSet);
 	}
 
-	private boolean validate(IValidator validator, ControlDecoration controlDecoration, Text text) {
+	private boolean validate(IValidator<Object> validator, ControlDecoration controlDecoration, Text text) {
 
 		IStatus status = validator.validate(text.getText().trim());
 		if(status.isOK()) {

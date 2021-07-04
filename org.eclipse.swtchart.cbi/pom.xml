@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Copyright (c) 2017, 2020 Lablicate GmbH.
+  Copyright (c) 2017, 2021 Lablicate GmbH.
 
   This program and the accompanying materials are made
   available under the terms of the Eclipse Public License 2.0
@@ -70,10 +70,8 @@
     <module>../org.eclipse.swtchart.extensions.test</module>
     <module>../org.eclipse.swtchart.export</module>
     <module>../org.eclipse.swtchart.export.test</module>
-    <module>../org.eclipse.swtchart.export.extended</module>
-    <module>../org.eclipse.swtchart.export.extended.test</module>    
-    <module>../org.eclipse.swtchart.feature</module>
-    <module>../org.eclipse.swtchart.updatesite</module>
+    <!--<module>../org.eclipse.swtchart.feature</module>
+    <module>../org.eclipse.swtchart.updatesite</module>-->
   </modules>
   <!--
 	USE MAVEN 3.1.0
@@ -83,11 +81,11 @@
   </prerequisites>
   <!--
 	PROPERTIES
-  --> 
+  -->
   <properties>
     <!-- VERSIONS -->
-    <tycho.version>1.6.0</tycho.version>
-    <tycho-extras.version>1.6.0</tycho-extras.version>
+    <tycho.version>2.4.0-SNAPSHOT</tycho.version>
+    <tycho-extras.version>2.4.0-SNAPSHOT</tycho-extras.version>
     <pmd.version>2.7.1</pmd.version>
     <checkstyle.version>2.9.1</checkstyle.version>
     <!-- IDS -->
@@ -170,15 +168,6 @@
         <version>${tycho.version}</version>
         <configuration>
           <encoding>${project.build.sourceEncoding}</encoding>
-          <extraClasspathElements>
-            <extraClasspathElement>
-              <groupId>com.oracle</groupId>
-              <artifactId>javafx</artifactId>
-              <version>8.0.0-SNAPSHOT</version>
-              <systemPath>${java.home}/lib/jfxswt.jar</systemPath>
-              <scope>system</scope>
-            </extraClasspathElement>
-          </extraClasspathElements>
         </configuration>
       </plugin>
       <plugin>
@@ -228,9 +217,13 @@
       </profile>
     </profiles>
     <pluginRepositories>
-		<pluginRepository>
-			<id>eclipse</id>
-			<url>https://repo.eclipse.org/content/repositories/cbi/</url>
-		</pluginRepository>
+      <pluginRepository>
+        <id>eclipse</id>
+        <url>https://repo.eclipse.org/content/repositories/cbi/</url>
+      </pluginRepository>
+      <pluginRepository>
+        <id>tycho-snapshots</id>
+        <url>https://repo.eclipse.org/content/repositories/tycho-snapshots/</url>
+      </pluginRepository>
     </pluginRepositories>
 </project>

@@ -10,7 +10,7 @@
    </description>
 
    <copyright url="https://projects.eclipse.org/projects/science.swtchart">
-      Copyright (c) 2017, 2020 Lablicate GmbH.
+      Copyright (c) 2017, 2021 Lablicate GmbH.
 This program and the accompanying materials are made
 available under the terms of the Eclipse Public License 2.0
 which is available at https://www.eclipse.org/legal/epl-2.0/
@@ -18,7 +18,7 @@ SPDX-License-Identifier: EPL-2.0
    </copyright>
 
    <license url="https://www.eclipse.org/legal/epl-2.0/">
-      Copyright (c) 2017, 2020 Lablicate GmbH.
+      Copyright (c) 2017, 2021 Lablicate GmbH.
 This program and the accompanying materials are made
 available under the terms of the Eclipse Public License 2.0
 which is available at https://www.eclipse.org/legal/epl-2.0/
@@ -41,62 +41,6 @@ SPDX-License-Identifier: EPL-2.0
 
    <plugin
          id="org.eclipse.swtchart.export"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.batik.svggen"
-         download-size="0"
-         install-size="0"
-         version="1.9.1.v20190730-1743"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.batik.ext.awt"
-         download-size="0"
-         install-size="0"
-         version="1.9.1.v20190730-1743"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.batik.dom"
-         download-size="0"
-         install-size="0"
-         version="1.9.1.v20190730-1743"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.batik.util"
-         download-size="0"
-         install-size="0"
-         version="1.9.1.v20180703-1553"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.batik.constants"
-         download-size="0"
-         install-size="0"
-         version="1.9.1.v20180227-1645"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.batik.css"
-         download-size="0"
-         install-size="0"
-         version="1.9.1.v20181015-1528"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.batik.i18n"
-         download-size="0"
-         install-size="0"
-         version="1.9.1.v20180227-1645"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.swtchart.export.extended"
          download-size="0"
          install-size="0"
          version="0.0.0"
